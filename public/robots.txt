@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goldenaroma.example/sitemap.xml
+Sitemap: https://the-golden-aroma.onrender.com/sitemap.xml
