@@ -9,25 +9,39 @@
     content="Wholesale Ceylon cinnamon for restaurants, importers, health brands, and specialty grocers. No MOQ theatrics — tell us what you need and we confirm within 24 hours.">
   <meta name="keywords"
     content="wholesale Ceylon cinnamon, bulk cinnamon exporter, cinnamon supplier Sri Lanka, bulk cinnamon quills, commercial cinnamon supplier, cinnamon importer Japan, cinnamon for restaurants and grocers">
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="icon" type="image/png" href="/images/logo.png">
 </head>
 
 <body>
 
+  <!-- TOP INFO BAR -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <a href="tel:+94776369969">📞 +94 776 369 969</a>
+      <a href="mailto:goldenaroma01@gmail.com">✉️ goldenaroma01@gmail.com</a>
+    </div>
+    <div class="top-bar-right">Premium Ceylon Cinnamon Exporters to Japan &amp; Worldwide</div>
+  </div>
+
   <!-- NAV -->
   <nav id="main-nav">
-    <a class="logo" href="index.html">GOLDEN AROMA</a>
+    <a class="logo" href="index.html">
+      <img src="/images/logo.png" alt="Golden Aroma Logo">
+    </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
-      <a href="origin.html">Origin</a>
-      <a href="wholesale.html">Wholesale</a>
+      <a href="index.html#about">About Us</a>
+      <a href="shop.html">Products</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="wholesale.html" class="active">Wholesale</a>
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-right">
       <button class="cart-btn" onclick="openDrawer()">
         INQUIRY <span class="c-badge" id="cbadge">0</span>
       </button>
-      <button class="menu-btn" id="mbtn">MENU</button>
+      <button class="menu-btn" id="mbtn">☰ MENU</button>
     </div>
   </nav>
 
@@ -156,25 +170,55 @@
   <footer>
     <div class="wrap">
       <div class="foot-inner">
-        <div class="foot-col">
-          <span class="foot-brand">GOLDEN AROMA</span>
-          <p class="foot-tagline">True Ceylon Cinnamon from Kandy, Sri Lanka — traced to the hands that rolled it.</p>
+        <div>
+          <img src="/images/logo.png" alt="Golden Aroma" class="foot-logo-img">
+          <p class="foot-tagline">Sri Lanka's trusted partner for premium Ceylon cinnamon exports.</p>
+          <div class="foot-address">
+            <span>📍 Kandy Region, Central Province, Sri Lanka</span>
+            <span>📞 +94 776 369 969</span>
+          </div>
           <div class="foot-social">
-            <a href="#" aria-label="Instagram">𝐈</a>
-            <a href="https://wa.me/94776369969" aria-label="WhatsApp" target="_blank" rel="noopener">𝐖</a>
-            <a href="#" aria-label="LinkedIn">𝐋</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="https://wa.me/94776369969" aria-label="WhatsApp" target="_blank" rel="noopener">W</a>
+            <a href="#" aria-label="LinkedIn">in</a>
           </div>
         </div>
         <div class="foot-col">
+          <h4>Quick Links</h4>
           <div class="foot-links">
-            <a href="index.html">Home</a><a href="shop.html">Shop</a>
-            <a href="origin.html">Origin</a><a href="wholesale.html">Wholesale</a><a href="contact.html">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="shop.html">Products</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="wholesale.html">Wholesale</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="foot-col">
+          <h4>Our Products</h4>
+          <div class="foot-links">
+            <a href="shop.html">Ceylon Cinnamon Sticks</a>
+            <a href="shop.html">Cinnamon Powder</a>
+            <a href="shop.html">Cinnamon Bark Oil</a>
+            <a href="shop.html">Quillings &amp; Chips</a>
+          </div>
+        </div>
+        <div class="foot-col">
+          <h4>Connect With Us</h4>
+          <div class="foot-export">
+            <strong>🌐 Export Markets</strong>
+            Japan · USA · Europe · Middle East · Asia Pacific
+          </div>
+          <div class="foot-links" style="margin-top:16px;">
+            <a href="#">EDB Registered Exporter</a>
+            <a href="#">SLSI Certified</a>
+            <a href="#">Ceylon Cinnamon PGI</a>
           </div>
         </div>
       </div>
       <div class="foot-bottom">
         <span>© 2024 GOLDEN AROMA CINNAMON PRODUCTS — Sri Lanka</span>
-        <span>EDB REG · SLSI CERT · PGI 2022</span>
+        <span>EDB REG · SLSI CERT · CEYLON CINNAMON PGI</span>
       </div>
     </div>
   </footer>
@@ -183,8 +227,12 @@
   <div class="mob-veil" id="mob-veil"></div>
   <div class="mob-panel" id="mpanel">
     <button class="mob-close" id="mob-close">×</button>
-    <a href="index.html">Home</a><a href="shop.html">Shop</a>
-    <a href="origin.html">Origin</a><a href="wholesale.html">Wholesale</a><a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About Us</a>
+    <a href="shop.html">Products</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="contact.html">Contact</a>
   </div>
   <div class="veil" id="veil" onclick="closeDrawer()"></div>
   <div class="drawer" id="drawer">

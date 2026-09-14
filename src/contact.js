@@ -9,6 +9,13 @@ export function doSignup() {
     setTimeout(() => input?.classList.remove('error'), 2000);
     return;
   }
+
+  const subject = encodeURIComponent('Golden Aroma — Harvest Notify Me Signup');
+  const body = encodeURIComponent(
+    `Please add this address to the harvest notification list:\n\n${email}`
+  );
+  window.open(`mailto:goldenaroma01@gmail.com?subject=${subject}&body=${body}`);
+
   const btn = document.querySelector('.signup-row .btn-jade');
   if (btn) {
     btn.textContent = '✓ Subscribed!';
