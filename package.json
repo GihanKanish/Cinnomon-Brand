@@ -1,0 +1,17 @@
+{
+  "name": "kurundu",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Kurundu — True Ceylon Cinnamon, Traced to Source",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.0"
+  }
+}
