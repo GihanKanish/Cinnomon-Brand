@@ -11,23 +11,23 @@
   },
   {
     id: 2,
-    spec: '6–7MM · WHOLE QUILL',
+    spec: '6–10MM · WHOLE QUILL',
     name: 'C5 Special Quills',
     image: '/images/product-c5special.webp',
     desc: 'Smooth, sweet, and the grade most chefs reach for first. A step down from Alba, a step up in value.',
     long: 'C5 Special sits just below Alba and is the choice of most serious cooks. Still very tight and consistent, the flavor balanced between sweet and warm. Most professional kitchens that specify Ceylon cinnamon use this grade.',
     price: 11.00, unit: '100g', ppg: 0.11,
-    det: { Grade:'C5 SPECIAL', Diameter:'6–7 mm', Origin:'Kandy, Sri Lanka', 'Best for':'Professional cooking', Harvest:'2024 Main' }
+    det: { Grade:'C5 SPECIAL', Diameter:'6–10 mm', Origin:'Kandy, Sri Lanka', 'Best for':'Professional cooking', Harvest:'2024 Main' }
   },
   {
     id: 3,
-    spec: '9–11MM · WHOLE QUILL',
+    spec: '12–16MM · WHOLE QUILL',
     name: 'C4 Quills',
     image: '/images/product-c4.webp',
     desc: 'Our everyday cooking grade — full flavor, honest price, the one we keep in our own kitchens.',
     long: "C4 is the workhorse grade. The quill diameter is wider, but the flavor intensity is comparable to higher grades — you're paying less because the rolling is less precise, not because the raw material differs. The grade to buy in bulk for everyday cooking.",
     price: 8.50, unit: '100g', ppg: 0.085,
-    det: { Grade:'C4', Diameter:'9–11 mm', Origin:'Kandy, Sri Lanka', 'Best for':'Daily cooking, bulk use', Harvest:'2024 Main' }
+    det: { Grade:'C4', Diameter:'12–16 mm', Origin:'Kandy, Sri Lanka', 'Best for':'Daily cooking, bulk use', Harvest:'2024 Main' }
   },
   {
     id: 4,
@@ -63,9 +63,9 @@
 
 export const GRADES = [
   { key:'alba',  label:'ALBA',     spec:'≤6mm',    ppg:0.29,  note:'The highest classification. Diameter under 6mm, pale color, intensely sweet with almost no spice edge. The choice for gifting, fine dining, and understanding what the spice can actually be.' },
-  { key:'c5s',   label:'C5 SPEC',  spec:'6–7mm',   ppg:0.11,  note:'The professional kitchen grade. Tight, consistent, priced for regular use. Most serious cooks who switch from cassia settle here.' },
-  { key:'c5',    label:'C5',       spec:'7–9mm',   ppg:0.095, note:'The most widely exported Ceylon grade. A good balance of quality and price, suitable for retail brands and foodservice at scale.' },
-  { key:'c4',    label:'C4',       spec:'9–11mm',  ppg:0.085, note:'Everyday cooking grade. Less precise roll, but comparable flavor intensity. Best value for anything blended or infused rather than displayed.' },
-  { key:'m5',    label:'M5',       spec:'11–13mm', ppg:0.06,  note:'A thicker quill for large-volume cooking. Used in tea blends and as a base for grinding.' },
+  { key:'c5s',   label:'C5 SPEC',  spec:'6–10mm',  ppg:0.11,  note:'The professional kitchen grade. Tight, consistent, priced for regular use. Most serious cooks who switch from cassia settle here.' },
+  { key:'c5',    label:'C5',       spec:'10–12mm', ppg:0.095, note:'The most widely exported Ceylon grade. A good balance of quality and price, suitable for retail brands and foodservice at scale.' },
+  { key:'c4',    label:'C4',       spec:'12–16mm', ppg:0.085, note:'Everyday cooking grade. Less precise roll, but comparable flavor intensity. Best value for anything blended or infused rather than displayed.' },
+  { key:'m5',    label:'M5',       spec:'16–18mm', ppg:0.06,  note:'A thicker quill for large-volume cooking. Used in tea blends and as a base for grinding.' },
   { key:'ql',    label:'QUILLINGS',spec:'Mixed',   ppg:0.035, note:'Broken pieces from grading — same bark as the sticks, just not in roll form. Best value for infusions, grinding, and bulk use.' }
 ];
